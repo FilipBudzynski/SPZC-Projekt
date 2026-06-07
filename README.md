@@ -1,6 +1,6 @@
-# XAI dla detekcji intruzji sieciowych (SPZC, Zespół 13)
+# XAI dla wykrywania włamań sieciowych (SPZC, Zespół 13)
 
-Implementacja wyjaśnialnej detekcji intruzji opartej o modele **Random Forest** i **XGBoost**
+Implementacja wyjaśnialnego wykrywania włamań opartego na modelach **Random Forest** i **XGBoost**
 oraz metodę **SHAP**, inspirowana pracą Arreche i in. (2024), *XAI-IDS* (DOI: 10.3390/app14104170).
 Eksperymenty na zbiorach **UNSW-NB15** oraz **CIC-IoT2023** (klasyfikacja wieloklasowa).
 Dodatkowo, dla walidacji poprawności implementacji, ten sam potok uruchamiamy na zbiorze
