@@ -1,0 +1,26 @@
+{
+  "UNSW-NB15": {
+    "RandomForest": {
+      "train_s": 1.8,
+      "infer_s": 0.1,
+      "n_test": 82332
+    },
+    "XGBoost": {
+      "train_s": 9.7,
+      "infer_s": 0.22,
+      "n_test": 82332
+    }
+  },
+  "CIC-IoT2023": {
+    "RandomForest": {
+      "train_s": 1.6,
+      "infer_s": 0.44,
+      "n_test": 268463
+    },
+    "XGBoost": {
+      "train_s": 6.7,
+      "infer_s": 0.52,
+      "n_test": 268463
+    }
+  }
+}

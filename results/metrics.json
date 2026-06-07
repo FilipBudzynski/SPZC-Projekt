@@ -1,0 +1,104 @@
+{
+  "UNSW-NB15": {
+    "RandomForest": {
+      "all_features": {
+        "accuracy": 0.6933148714958947,
+        "precision_macro": 0.5217701144318694,
+        "recall_macro": 0.6027784173600599,
+        "f1_macro": 0.5025774371242016,
+        "f1_weighted": 0.7431740141572044
+      },
+      "top15_features": {
+        "accuracy": 0.7090924549385416,
+        "precision_macro": 0.5375027441905866,
+        "recall_macro": 0.6311273577602811,
+        "f1_macro": 0.5248178622424332,
+        "f1_weighted": 0.7577163637296209
+      }
+    },
+    "XGBoost": {
+      "all_features": {
+        "accuracy": 0.7128455521546908,
+        "precision_macro": 0.5480875761120517,
+        "recall_macro": 0.6295682492163506,
+        "f1_macro": 0.5338695385820953,
+        "f1_weighted": 0.759713687459911
+      },
+      "top15_features": {
+        "accuracy": 0.7051571685371423,
+        "precision_macro": 0.5410189714643591,
+        "recall_macro": 0.6391593053915487,
+        "f1_macro": 0.5333745493969124,
+        "f1_weighted": 0.7537239496510277
+      }
+    }
+  },
+  "CIC-IoT2023": {
+    "RandomForest": {
+      "all_features": {
+        "accuracy": 0.8289857447767476,
+        "precision_macro": 0.7614833492936235,
+        "recall_macro": 0.7170853534807315,
+        "f1_macro": 0.7320759648724615,
+        "f1_weighted": 0.828399155034892
+      },
+      "top15_features": {
+        "accuracy": 0.7948506870592968,
+        "precision_macro": 0.6996389265153149,
+        "recall_macro": 0.676251347714022,
+        "f1_macro": 0.6828171710450284,
+        "f1_weighted": 0.7954425270883762
+      }
+    },
+    "XGBoost": {
+      "all_features": {
+        "accuracy": 0.8311685409162529,
+        "precision_macro": 0.7364189662652902,
+        "recall_macro": 0.7367543959779779,
+        "f1_macro": 0.7352466031251803,
+        "f1_weighted": 0.8321562985409907
+      },
+      "top15_features": {
+        "accuracy": 0.79042549625088,
+        "precision_macro": 0.6930238110506599,
+        "recall_macro": 0.7003661321356517,
+        "f1_macro": 0.6937233812698211,
+        "f1_weighted": 0.7935875277329362
+      }
+    }
+  },
+  "NSL-KDD": {
+    "RandomForest": {
+      "all_features": {
+        "accuracy": 0.9941197594038962,
+        "precision_macro": 0.9235867739777659,
+        "recall_macro": 0.9436441017708734,
+        "f1_macro": 0.933310121208186,
+        "f1_weighted": 0.9941577393985647
+      },
+      "top15_features": {
+        "accuracy": 0.9914265194362151,
+        "precision_macro": 0.8904858989979871,
+        "recall_macro": 0.8792417080201058,
+        "f1_macro": 0.8835097106489487,
+        "f1_weighted": 0.9914443070135098
+      }
+    },
+    "XGBoost": {
+      "all_features": {
+        "accuracy": 0.9962070203788491,
+        "precision_macro": 0.9395557699611118,
+        "recall_macro": 0.9676844167523153,
+        "f1_macro": 0.952633160892511,
+        "f1_weighted": 0.996227652552422
+      },
+      "top15_features": {
+        "accuracy": 0.9956234850525182,
+        "precision_macro": 0.9268471087581209,
+        "recall_macro": 0.9335609098151607,
+        "f1_macro": 0.930167155726622,
+        "f1_weighted": 0.9956357823107264
+      }
+    }
+  }
+}

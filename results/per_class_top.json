@@ -1,0 +1,336 @@
+{
+  "UNSW-NB15/RandomForest": {
+    "Analysis": [
+      "smean",
+      "sbytes",
+      "ct_dst_src_ltm",
+      "ct_dst_sport_ltm",
+      "proto"
+    ],
+    "Backdoor": [
+      "smean",
+      "sbytes",
+      "proto",
+      "service",
+      "ct_dst_sport_ltm"
+    ],
+    "DoS": [
+      "smean",
+      "sttl",
+      "ct_srv_dst",
+      "sbytes",
+      "ct_state_ttl"
+    ],
+    "Exploits": [
+      "sttl",
+      "sbytes",
+      "ct_state_ttl",
+      "smean",
+      "ct_srv_dst"
+    ],
+    "Fuzzers": [
+      "sbytes",
+      "ct_dst_src_ltm",
+      "service",
+      "smean",
+      "ct_srv_dst"
+    ],
+    "Generic": [
+      "service",
+      "sbytes",
+      "smean",
+      "ct_dst_sport_ltm",
+      "ct_srv_dst"
+    ],
+    "Normal": [
+      "sttl",
+      "ct_state_ttl",
+      "dload",
+      "dttl",
+      "ct_dst_src_ltm"
+    ],
+    "Reconnaissance": [
+      "sbytes",
+      "smean",
+      "ct_dst_src_ltm",
+      "dmean",
+      "ct_srv_dst"
+    ],
+    "Shellcode": [
+      "ct_dst_src_ltm",
+      "service",
+      "sbytes",
+      "ct_srv_dst",
+      "ct_src_dport_ltm"
+    ],
+    "Worms": [
+      "sbytes",
+      "service",
+      "smean",
+      "sttl",
+      "ct_dst_src_ltm"
+    ]
+  },
+  "UNSW-NB15/XGBoost": {
+    "Analysis": [
+      "smean",
+      "proto",
+      "sbytes",
+      "dload",
+      "ct_dst_src_ltm"
+    ],
+    "Backdoor": [
+      "proto",
+      "service",
+      "sbytes",
+      "smean",
+      "sloss"
+    ],
+    "DoS": [
+      "ct_srv_dst",
+      "smean",
+      "ct_srv_src",
+      "sbytes",
+      "proto"
+    ],
+    "Exploits": [
+      "smean",
+      "ct_srv_dst",
+      "sttl",
+      "dbytes",
+      "sbytes"
+    ],
+    "Fuzzers": [
+      "sttl",
+      "service",
+      "sbytes",
+      "smean",
+      "ct_dst_src_ltm"
+    ],
+    "Generic": [
+      "sbytes",
+      "service",
+      "smean",
+      "ct_srv_dst",
+      "ct_src_ltm"
+    ],
+    "Normal": [
+      "sttl",
+      "proto",
+      "ct_dst_sport_ltm",
+      "sbytes",
+      "smean"
+    ],
+    "Reconnaissance": [
+      "smean",
+      "sbytes",
+      "sloss",
+      "ct_srv_src",
+      "dmean"
+    ],
+    "Shellcode": [
+      "service",
+      "ct_src_dport_ltm",
+      "sbytes",
+      "ct_dst_src_ltm",
+      "sttl"
+    ],
+    "Worms": [
+      "sbytes",
+      "service",
+      "smean",
+      "ct_srv_src",
+      "ackdat"
+    ]
+  },
+  "CIC-IoT2023/RandomForest": {
+    "Benign": [
+      "Number",
+      "HTTPS",
+      "Max",
+      "Tot sum",
+      "ack_flag_number"
+    ],
+    "BruteForce": [
+      "Number",
+      "SSH",
+      "Rate",
+      "ack_flag_number",
+      "Tot sum"
+    ],
+    "DDoS": [
+      "Number",
+      "Tot sum",
+      "ack_flag_number",
+      "Header_Length",
+      "Tot size"
+    ],
+    "DoS": [
+      "Number",
+      "Tot sum",
+      "Rate",
+      "Tot size",
+      "AVG"
+    ],
+    "Mirai": [
+      "Tot sum",
+      "Protocol Type",
+      "Number",
+      "Tot size",
+      "Variance"
+    ],
+    "Recon": [
+      "Number",
+      "Tot sum",
+      "ack_flag_number",
+      "syn_flag_number",
+      "Min"
+    ],
+    "Spoofing": [
+      "Number",
+      "Min",
+      "Max",
+      "Tot sum",
+      "Rate"
+    ],
+    "Web-based": [
+      "Number",
+      "IAT",
+      "Rate",
+      "ack_flag_number",
+      "Max"
+    ]
+  },
+  "CIC-IoT2023/XGBoost": {
+    "Benign": [
+      "Number",
+      "HTTPS",
+      "syn_count",
+      "AVG",
+      "Header_Length"
+    ],
+    "BruteForce": [
+      "Number",
+      "Rate",
+      "Tot sum",
+      "IAT",
+      "Std"
+    ],
+    "DDoS": [
+      "Number",
+      "Header_Length",
+      "AVG",
+      "Protocol Type",
+      "Tot sum"
+    ],
+    "DoS": [
+      "Number",
+      "Header_Length",
+      "AVG",
+      "Rate",
+      "HTTP"
+    ],
+    "Mirai": [
+      "Tot sum",
+      "Std",
+      "Number",
+      "TCP",
+      "Max"
+    ],
+    "Recon": [
+      "Number",
+      "Tot sum",
+      "syn_flag_number",
+      "IAT",
+      "Rate"
+    ],
+    "Spoofing": [
+      "Number",
+      "Min",
+      "Max",
+      "AVG",
+      "ARP"
+    ],
+    "Web-based": [
+      "Number",
+      "IAT",
+      "Tot sum",
+      "AVG",
+      "Max"
+    ]
+  },
+  "NSL-KDD/RandomForest": {
+    "DoS": [
+      "count",
+      "dst_host_serror_rate",
+      "flag",
+      "dst_bytes",
+      "serror_rate"
+    ],
+    "Normal": [
+      "dst_bytes",
+      "dst_host_srv_count",
+      "service",
+      "logged_in",
+      "srv_count"
+    ],
+    "Probe": [
+      "dst_bytes",
+      "dst_host_diff_srv_rate",
+      "logged_in",
+      "diff_srv_rate",
+      "dst_host_same_srv_rate"
+    ],
+    "R2L": [
+      "srv_count",
+      "count",
+      "dst_bytes",
+      "service",
+      "dst_host_srv_count"
+    ],
+    "U2R": [
+      "dst_bytes",
+      "dst_host_srv_count",
+      "service",
+      "srv_count",
+      "duration"
+    ]
+  },
+  "NSL-KDD/XGBoost": {
+    "DoS": [
+      "count",
+      "src_bytes",
+      "dst_bytes",
+      "dst_host_same_src_port_rate",
+      "srv_count"
+    ],
+    "Normal": [
+      "dst_host_srv_count",
+      "src_bytes",
+      "service",
+      "dst_host_count",
+      "dst_bytes"
+    ],
+    "Probe": [
+      "src_bytes",
+      "dst_host_same_src_port_rate",
+      "protocol_type",
+      "dst_host_rerror_rate",
+      "dst_host_same_srv_rate"
+    ],
+    "R2L": [
+      "count",
+      "src_bytes",
+      "dst_bytes",
+      "service",
+      "srv_count"
+    ],
+    "U2R": [
+      "dst_bytes",
+      "dst_host_srv_count",
+      "src_bytes",
+      "service",
+      "duration"
+    ]
+  }
+}
