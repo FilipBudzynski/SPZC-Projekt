@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+data/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+paper/main.pdf
+SPZC-projekt.pdf
