@@ -1,5 +1,13 @@
 # XAI dla wykrywania włamań sieciowych (SPZC, Zespół 13)
 
+**Autorzy:** Dawid Budzyński, Filip Budzyński
+
+- Artykuł (Overleaf): https://www.overleaf.com/project/6a25a45128d3e2f25a8e1c66
+- Repozytorium kodu (GitHub): https://github.com/FilipBudzynski/SPZC-Projekt
+- Gotowy artykuł (PDF): `paper/Budzynski-Budzynski-SPZC-projekt.pdf`
+- Kod eksperymentów: `src/`, `run.py`, `run_baseline.py`
+- Wyniki (metryki, wykresy SHAP, macierze pomyłek): `results/`
+
 Implementacja wyjaśnialnego wykrywania włamań opartego na modelach **Random Forest** i **XGBoost**
 oraz metodę **SHAP**, inspirowana pracą Arreche i in. (2024), *XAI-IDS* (DOI: 10.3390/app14104170).
 Eksperymenty na zbiorach **UNSW-NB15** oraz **CIC-IoT2023** (klasyfikacja wieloklasowa).
