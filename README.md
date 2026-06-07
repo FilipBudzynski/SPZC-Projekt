@@ -67,8 +67,4 @@ SHAP i macierze pomyłek (`*.png`).
 ## Artykuł
 
 Źródło artykułu znajduje się w `paper/main.tex` (szablon IEEEtran, język polski przez
-`\babelprovide[main,import]{polish}` — działa zarówno lokalnie, jak i na Overleaf).
-Kompilacja: `pdflatex main && bibtex main && pdflatex main && pdflatex main`.
-Plik `paper/Budzynski-Budzynski-SPZC-projekt.pdf` to gotowy artykuł; docelowo projekt
-oddawany jest z Overleaf (zgodnie z wymaganiami przedmiotu).
-
+`\babelprovide[main,import]{polish}`.
