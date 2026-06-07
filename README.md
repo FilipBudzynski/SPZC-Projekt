@@ -23,10 +23,9 @@ results/         metryki, rankingi SHAP, wykresy
 ## Uruchomienie
 
 ```bash
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-python run.py            # UNSW-NB15 + CIC-IoT2023
-python run_baseline.py   # NSL-KDD (baseline; dopisuje wyniki do results/)
+uv sync                     # tworzy .venv i instaluje zależności z pyproject.toml/uv.lock
+uv run python run.py            # UNSW-NB15 + CIC-IoT2023
+uv run python run_baseline.py   # NSL-KDD (baseline; dopisuje wyniki do results/)
 ```
 
 ## Dane

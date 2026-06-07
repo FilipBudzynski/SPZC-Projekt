@@ -1,11 +1,14 @@
 .venv/
 __pycache__/
 data/
+surveys/
 *.aux
 *.bbl
 *.blg
 *.log
 *.out
 *.synctex.gz
+*.fls
+*.fdb_latexmk
 paper/main.pdf
 SPZC-projekt.pdf

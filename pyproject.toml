@@ -1,0 +1,14 @@
+[project]
+name = "spzc-xai-nids"
+version = "0.1.0"
+description = "Wyjaśnialne wykrywanie włamań sieciowych: SHAP dla modeli Random Forest i XGBoost"
+requires-python = ">=3.12"
+dependencies = [
+    "scikit-learn>=1.9",
+    "xgboost>=3.2",
+    "shap>=0.52",
+    "pandas>=3.0",
+    "numpy>=2.4",
+    "matplotlib>=3.10",
+    "pyarrow>=24.0",
+]
